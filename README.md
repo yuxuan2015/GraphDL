@@ -89,3 +89,13 @@ https://github.com/alibaba/euler
 简介：
 
 Euler是阿里巴巴开源的大规模分布式的图学习框架，配合TensorFlow或者阿里开源的XDL等深度学习工具，它支持用户在数十亿点数百亿边的复杂异构图上进行模型训练。
+
+GCN的应用
+
+1 文本分类
+
+https://github.com/yao8839836/text_gcn
+
+2 relation
+
+https://github.com/tkipf/relational-gcn

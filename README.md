@@ -30,9 +30,11 @@ LINE: https://github.com/tangjianpku/LINE
 
 链接：
 
-TensorFlow: https://github.com/tkipf/gcn
+TensorFlow版本: https://github.com/tkipf/gcn
 
-PyTorch: https://github.com/tkipf/pygcn
+PyTorch版本: https://github.com/tkipf/pygcn
+
+Keras版本：https://github.com/tkipf/keras-gcn
 
 简介：
 

@@ -14,7 +14,7 @@
 
 图深度学习研究者和工业界在Github上开源了一些优秀的图神经网络的实现其框架，都从一定程度上去解决了上述的问题，非常值得我们借鉴。下面我们列出一些优秀的Github仓库：
 
-DeepWalk / LINE
+1 DeepWalk / LINE
 
 链接：
 
@@ -26,7 +26,7 @@ LINE: https://github.com/tangjianpku/LINE
 
 虽然DeepWalk和LINE属于网络表示学习中的算法，与现在端到端的图神经网络有一定的区别，但目前一些图神经网络应用（如社交网络、引用网络节点分类）依然使用DeepWalk/LINE来作为预训练算法，无监督地为节点获得初始特征表示。另外，DeepWalk项目中的Random Walk也可以被直接拿来用作图神经网络的数据采样操作。
 
-图卷积网络GCN TensorFlow/PyTorch版
+2 图卷积网络GCN TensorFlow/PyTorch版
 
 链接：
 
@@ -38,7 +38,7 @@ PyTorch: https://github.com/tkipf/pygcn
 
 GCN论文作者提供的源码，该源码提供了大量关于稀疏矩阵的代码。例如如何构建稀疏的变换矩阵（这部分代码被其他许多项目复用）、如何将稀疏CSR矩阵变换为TensorFlow/PyTorch的稀疏Tensor，以及如何构建兼容稀疏和非稀疏的全连接层等，几乎是图神经网络必读的源码之一了。
 
-快速图卷积网络FastGCN TensorFlow版
+3 快速图卷积网络FastGCN TensorFlow版
 
 链接：
 
@@ -48,7 +48,7 @@ https://github.com/matenure/FastGCN
 
 FastGCN作者提供的源码，基于采样的方式构建mini-match来训练GCN，解决了GCN不能处理大规模数据的问题。
 
-图注意力网络GAT TensorFlow版
+4 图注意力网络GAT TensorFlow版
 
 链接：
 
@@ -58,7 +58,7 @@ https://github.com/PetarV-/GAT
 
 GAT论文作者提供的源码。源码中关于mask的实现、以及稀疏版GAT的实现值得借鉴。
 
-Mini-batch版图注意力网络DeepInf
+5 Mini-batch版图注意力网络DeepInf
 
 链接：
 
@@ -68,7 +68,7 @@ https://github.com/xptree/DeepInf
 
 DeepInf论文其实是GAT的一个应用，但其基于Random Walk采样子图构建mini-batch的方法解决了GAT在大规模网络上应用的问题。
 
-DeepMind开源的图神经网络框架Graph Nets
+6 DeepMind开源的图神经网络框架Graph Nets
 
 链接：
 
@@ -78,7 +78,7 @@ https://github.com/deepmind/graph_nets
 
 基于TensorFlow和Sonnet。上面的项目更侧重于节点特征的计算，而graph_nets同时包含节点和边的计算，可用于一些高级任务，如最短路径、物理场景模拟等。
 
-工业级分布式图神经网络框架Euler
+7 工业级分布式图神经网络框架Euler
 
 链接：
 
